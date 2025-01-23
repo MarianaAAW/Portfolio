@@ -3,6 +3,7 @@ from BackEnd import app
 
 
 @app.route("/")
+@app.route("/home")
 def home():
     return render_template('./body/home.html')
 
