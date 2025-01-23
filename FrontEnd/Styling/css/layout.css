@@ -16,6 +16,11 @@ a.nav-link {
     color: #ED8B42;
 }
 
+a.navbar-brand {
+    font-size: x-large;
+    color: #ebcc76ff;
+}
+
 .block-content {
     background-color: rgb(255, 246, 240);
     width: 100%;
