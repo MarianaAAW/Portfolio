@@ -10,3 +10,11 @@ def home():
 @app.route("/about")
 def about():
     return render_template('./body/about.html')
+
+@app.route("/my_projects")
+def my_projects():
+    return render_template('./body/my_projects.html')
+
+@app.route("/inspo")
+def extra_inspo():
+    return render_template('./body/inspo.html')

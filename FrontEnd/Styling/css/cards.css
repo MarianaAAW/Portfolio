@@ -1,0 +1,55 @@
+.card-on {
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-style: none none solid none;
+    border-width: 5px;
+}
+
+#card_1_about {
+    border-color: #755539ff;
+}
+
+#card_2_about {
+    border-color: #ed8b42ff;
+}
+
+#card_3_about {
+    border-color: #f7a43aff;
+}
+
+#card_4_about {
+    border-color: #ebcc76ff;
+}
+
+#card_1_inspo {
+    border-color: #283341ff;
+}
+
+#card_2_inspo {
+    border-color: #395472ff;
+}
+
+#card_3_inspo {
+    border-color: #526473ff;
+}
+
+#card_4_inspo {
+    border-color: #7a837eff;
+}
+
+.card-body {
+    margin-left: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.cardImage,
+.cardImage-LL {
+    height: 215px;
+    width: 215px;
+}
