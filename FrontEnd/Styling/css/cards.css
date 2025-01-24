@@ -19,6 +19,7 @@
 
 .card-text {
     margin: 3px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*About.html*/
@@ -82,5 +83,25 @@
 /* for the mouse-over motion */
 .btn:hover {
     background-color: #7a837eff;
-    color: white
+    color: white;
+}
+
+#btn2 {
+    background-color: #f7a43aff;
+    color: white;
+}
+
+#btn2:hover {
+    background-color: #ed8b42ff;
+    color: white;
+}
+
+.card-footer {
+    width: 10%;
+}
+
+.card-footer:hover {
+    box-shadow: 0 4px 8px 0 rgb(54 50 164 / 30%);
+    margin-top: 20px;
+    margin: 10px;
 }
