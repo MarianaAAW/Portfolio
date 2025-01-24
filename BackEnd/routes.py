@@ -14,7 +14,3 @@ def about():
 @app.route("/my_projects")
 def my_projects():
     return render_template('./body/my_projects.html')
-
-@app.route("/inspo")
-def extra_inspo():
-    return render_template('./body/inspo.html')
