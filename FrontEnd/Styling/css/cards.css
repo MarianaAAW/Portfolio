@@ -5,11 +5,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
     border-style: none none solid none;
     border-width: 5px;
 }
 
+.card-title {
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+.card-text {
+    margin: 3px;
+}
+
+/*About.html*/
 #card_1_about {
     border-color: #755539ff;
 }
@@ -26,19 +38,20 @@
     border-color: #ebcc76ff;
 }
 
-#card_1_inspo {
+/*my_projects.html*/
+#card_1_projects {
     border-color: #283341ff;
 }
 
-#card_2_inspo {
+#card_2_projects {
     border-color: #395472ff;
 }
 
-#card_3_inspo {
+#card_3_projects {
     border-color: #526473ff;
 }
 
-#card_4_inspo {
+#card_4_projects {
     border-color: #7a837eff;
 }
 
@@ -52,4 +65,22 @@
 .cardImage-LL {
     height: 215px;
     width: 215px;
+}
+
+/*buttoooons, for the sake of i dont want more css files*/
+.btn {
+    background-color: #395472ff;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+/* for the mouse-over motion */
+.btn:hover {
+    background-color: #7a837eff;
+    color: white
 }
