@@ -2,15 +2,34 @@
 {% block content%}
 <link rel="stylesheet" href="{{url_for('static',filename='./css/home.css')}}">
 
-<div class="mariana">
-    <ul class="list-group">
-        <li class="list-group-item active" aria-current="true">An active item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
-    </ul>
+<div class="home-first">
+
+    <div class="crd-all">
+        <div class="crd-header" id="mypic">
+            <img src="{{url_for('static',filename='pics/home_profile.png')}}" class="profile-image">
+
+        </div>
+
+        <div class="card-body">
+            <h1 id="name">Mariana Aguerrevere</h1>
+            <footer class="blockquote-footer">The secret to happiness is a good sense of humor and a bad memory
+            </footer> <!--<cite title="Source Title">The wife</cite></footer>-->
+            <p id="description">Studying Software Engineering from an "artistic" perspective, still figuring out a more
+                professional description for my personality and life in
+                general.</p>
+            <!--<p> Why is this like this </p>-->
+            <div>
+                <!-- Add icon library -->
+                <a href="{{url_for('static',filename='/pics/my_CV.pdf')}}" class="btn" target="_blank">Doawnload my
+                    CV</a>
+                <a href="https://github.com/MarianaAAW" class="btn" download>Check my GitHub</a>
+            </div>
+        </div>
+
+
+    </div>
+
 </div>
-<h3>wgfjchgsfjcsjh</h3>
+
 
 {%endblock%}
